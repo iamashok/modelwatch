@@ -1,0 +1,105 @@
+{
+  "models": [
+    {
+      "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+      "model_name": "Llama 3.3 70B Instruct",
+      "organization": "meta-llama",
+      "benchmarks": [
+        {
+          "name": "MMLU",
+          "score": 86.0,
+          "category": "knowledge"
+        },
+        {
+          "name": "Arc-Challenge",
+          "score": 94.8,
+          "category": "reasoning"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 88.4,
+          "category": "general"
+        },
+        {
+          "name": "TruthfulQA",
+          "score": 58.9,
+          "category": "truthfulness"
+        }
+      ],
+      "source": "sample",
+      "is_open_source": true,
+      "input_price_per_1m": 0.35,
+      "output_price_per_1m": 0.40,
+      "parameters": "70B",
+      "license": "Llama 3.3 Community License"
+    },
+    {
+      "model_id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "model_name": "Mixtral 8x7B Instruct",
+      "organization": "mistralai",
+      "benchmarks": [
+        {
+          "name": "MMLU",
+          "score": 70.6,
+          "category": "knowledge"
+        },
+        {
+          "name": "Arc-Challenge",
+          "score": 85.8,
+          "category": "reasoning"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 86.7,
+          "category": "general"
+        },
+        {
+          "name": "TruthfulQA",
+          "score": 45.2,
+          "category": "truthfulness"
+        }
+      ],
+      "source": "sample",
+      "is_open_source": true,
+      "input_price_per_1m": 0.24,
+      "output_price_per_1m": 0.24,
+      "parameters": "46.7B",
+      "license": "Apache 2.0"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-72B-Instruct",
+      "model_name": "Qwen 2.5 72B Instruct",
+      "organization": "Qwen",
+      "benchmarks": [
+        {
+          "name": "MMLU",
+          "score": 85.3,
+          "category": "knowledge"
+        },
+        {
+          "name": "Arc-Challenge",
+          "score": 96.1,
+          "category": "reasoning"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 87.7,
+          "category": "general"
+        },
+        {
+          "name": "TruthfulQA",
+          "score": 59.7,
+          "category": "truthfulness"
+        }
+      ],
+      "source": "sample",
+      "is_open_source": true,
+      "input_price_per_1m": 0.35,
+      "output_price_per_1m": 0.40,
+      "parameters": "72B",
+      "license": "Qwen License"
+    }
+  ],
+  "total_count": 3,
+  "last_updated": "2025-01-15T00:00:00"
+}
